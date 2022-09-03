@@ -35,7 +35,7 @@ namespace Collatz
                     {   
                         if(number >= max / 3)
                         {
-                            Console.WriteLine("\n\n\n\t\t\tAtenção!\n\n\nO número ultrapassou o limite máximo de uma variável do tipo decimal!!\n\nLimite Máximo: {0}",max);
+                            Console.WriteLine("\n\n\n\t\t\tAtenção!\n\n\nO número ultrapassou o limite máximo de uma variável do tipo decimal\n\nLimite Máximo: {0}",max);
                             break;
                         }
 
@@ -69,7 +69,7 @@ namespace Collatz
 
                 if(number != 0)
                 {
-                    Console.WriteLine("\nMaior Número = {0}\n---------------------------------------------", lg);
+                    Console.WriteLine("\nMaior Número = {0}\n---------------------------------------", lg);
                 }
             }
         }
